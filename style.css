@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+@import url("/colors.css");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-size: 18px;
+  font-family: "Hanken Grotesk", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  height: 30rem;
+  margin: 0 auto;
+  display: inherit;
+  max-width: 1440px;
+  border-radius: 1.5rem;
+  box-shadow: 0.2rem 0.2rem 0.8rem var(--light-lavender);
+}
+
+.card {
+  width: 20rem;
+  color: var(--white);
+  padding: 2rem;
+}
+
+.result {
+  color: var(--light-lavender);
+  background-color: var(--slate-blue);
+  text-align: center;
+  border-radius: 1.5rem;
+  display: inherit;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.result span {
+  background: linear-gradient(var(--royal-blue) 5%, var(--slate-blue) 95%);
+  border-radius: 5rem;
+  height: 10rem;
+  width: 10rem;
+  display: inherit;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--white);
+}
+
+.result h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.result p:nth-child(3) {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.summary {
+  color: var(--gray-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.summary section {
+  display: inherit;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.summary section span {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.summary section span:first-child {
+  background-color: var(--light-red);
+  color: var(--red);
+}
+
+.summary section span:nth-child(2) {
+  background-color: var(--light-yellow);
+  color: var(--yellow);
+}
+
+.summary section span:nth-child(3) {
+  background-color: var(--light-teal);
+  color: var(--teal);
+}
+
+.summary section span:nth-child(4) {
+  background-color: var(--light-cobalt);
+  color: var(--cobalt);
+}
+
+.summary section span p:nth-child(3) {
+  color: var(--light-lavender);
+}
+
+.summary strong {
+  color: var(--gray-blue);
+  margin-inline-start: 3rem;
+}
+
+.summary a {
+  background-color: var(--gray-blue);
+  text-decoration: none;
+  color: var(--white);
+  padding: 0.8rem 1rem;
+  text-align: center;
+  border-radius: 1.5rem;
+  transition: all 0.3s;
+}
+
+.summary a:hover,
+.summary a:focus {
+  background-color: var(--royal-blue);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
+}

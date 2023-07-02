@@ -1,0 +1,21 @@
+:root {
+  --red: hsl(0, 100%, 67%);
+  --light-red: hsl(0, 100%, 98%);
+  --yellow: hsl(39, 100%, 56%);
+  --light-yellow: hsl(39, 100%, 98%);
+  --teal: hsl(166, 100%, 37%);
+  --light-teal: hsl(166, 100%, 98%);
+  --cobalt: hsl(234, 85%, 45%);
+  --light-cobalt: hsl(234, 85%, 98%);
+
+  --slate-blue: hsl(252, 100%, 67%);
+  --royal-blue: hsl(241, 81%, 54%);
+
+  --violet: hsla(256, 72%, 46%, 1);
+  --persian: hsla(241, 72%, 46%, 0);
+
+  --white: hsl(0, 0%, 100%);
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(241, 100%, 89%);
+  --gray-blue: hsl(224, 30%, 27%);
+}
